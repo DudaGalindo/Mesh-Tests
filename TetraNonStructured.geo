@@ -1,7 +1,8 @@
 length = 1.;
-numElements = 10; //100 e 1000 só alterar o número de elementos
+numElements = 20; //100 e 1000 só alterar o número de elementos
 gridsize = length/numElements;
 dd=300.0;
+
 Point(1) = {0, 0, 0, dd};
 Point(2) = {0, gridsize, 0, dd};
 Point(3) = {0, gridsize, gridsize, dd};
@@ -69,118 +70,6 @@ Curve Loop(42) = {2, 6, -21, -7};
 Plane Surface(50) = {42};
 Surface Loop(1) = {50, 1, 10, 40, 30, 11};
 Volume(1) = {1};
-
-Transfinite Surface {51} Right;
-//+
-Transfinite Surface {53} Right;
-//+
-Transfinite Surface {55} Right;
-//+
-Transfinite Surface {57} Right;
-//+
-Transfinite Surface {50} Left;
-//+
-Transfinite Surface {52} Right;
-//+
-Transfinite Surface {54} Right;
-//+
-Transfinite Surface {56} Right;
-//+
-Transfinite Surface {58} Right;
-//+
-Transfinite Surface {51};
-//+
-Transfinite Surface {53};
-//+
-Transfinite Surface {55};
-//+
-Transfinite Surface {57};
-//+
-Transfinite Surface {59};
-//+
-Transfinite Surface {2} Right;
-//+
-Transfinite Surface {22} Right;
-//+
-Transfinite Surface {24} Right;
-//+
-Transfinite Surface {26} Right;
-//+
-Transfinite Surface {28} Right;
-//+
-Transfinite Surface {21};
-//+
-Transfinite Surface {23};
-//+
-Transfinite Surface {25};
-//+
-Transfinite Surface {27};
-//+
-Transfinite Surface {29};
-//+
-Transfinite Surface {30};
-//+
-Transfinite Surface {32};
-//+
-Transfinite Surface {34};
-//+
-Transfinite Surface {36};
-//+
-Transfinite Surface {38};
-//+
-Transfinite Surface {31} Right;
-//+
-Transfinite Surface {33} Right;
-//+
-Transfinite Surface {35} Right;
-//+
-Transfinite Surface {37} Right;
-//+
-Transfinite Surface {39} Right;
-//+
-Transfinite Surface {40} Left;
-//+
-Transfinite Surface {42} Right;
-//+
-Transfinite Surface {44} Right;
-//+
-Transfinite Surface {46} Right;
-//+
-Transfinite Surface {48} Right;
-//+
-Transfinite Surface {41} Left;
-//+
-Transfinite Surface {43} Left;
-//+
-Transfinite Surface {45} Leftt;
-//+
-Transfinite Surface {47} Left;
-//+
-Transfinite Surface {49} Left;
-//+
-Transfinite Surface {1} Right;
-//+
-Transfinite Surface {12} Right;
-//+
-Transfinite Surface {12};
-//+
-Transfinite Surface {14};
-//+
-Transfinite Surface {16};
-//+
-Transfinite Surface {18};
-//+
-Transfinite Surface {20};
-//+
-Transfinite Surface {11} Right;
-//+
-Transfinite Surface {13} Right;
-//+
-Transfinite Surface {15} Right;
-//+
-Transfinite Surface {17} Right;
-//+
-Transfinite Surface {19} Right;
 
 Coherence;
 Mesh 3;
