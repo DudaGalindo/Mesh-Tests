@@ -7,6 +7,7 @@
  *
  *********************************************************************/
 
+
 lc = 1.;
 length = 1.;
 numElements = 10; //100 e 1000 só alterar o número de elementos
@@ -27,10 +28,6 @@ Recombine Surface{1};
 
 Physical Surface(1) = 1;
 
-//Physical Point(5) = {gridsize/2,gridsize/2,gridsize/2};
-//Physical Point(6) = {(numElements-1)*gridsize/2,gridsize/2, gridsize/2};
-//Physical Point(5) = {5};
-
 Extrude{1., 0, 0} {Surface{1}; Layers{10}; Recombine;}
-Physical Surface{2} = 28;
-Physical Volume("The Volume",1) = {1} ;
+Physical Surface(2) = {28};
+Physical Volume("The Volume",1) = {1};
