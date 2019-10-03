@@ -1,5 +1,8 @@
+/*************** Malha tetraedrica não estruturada por volumes ****************/
+
+
 length = 1.;
-numElements = 20; //100 e 1000 só alterar o número de elementos
+numElements = 10; //100 e 1000 só alterar o número de elementos
 gridsize = length/numElements;
 dd=300.0;
 
