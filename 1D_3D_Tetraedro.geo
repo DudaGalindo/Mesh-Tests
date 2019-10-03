@@ -1,4 +1,4 @@
-/**** Tetraedrica não estruturada simples *****/
+/********************** Tetraedrica não estruturada simples *******************/
 
 Point(1) = {0, 0, 0, lc};
 Point(2) = {length, 0, 0, lc};

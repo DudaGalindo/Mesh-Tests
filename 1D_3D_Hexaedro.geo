@@ -1,11 +1,4 @@
-/*********************************************************************
- *
- *  Gmsh test 1
- *
- *  Variables, elementary entities (points, curves, surfaces), physical
- *  entities (points, curves, surfaces)
- *
- *********************************************************************/
+/********************* Structured hexahedral mesh *****************************/
 
 
 lc = 1.;
